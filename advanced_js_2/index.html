@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurants</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <h1>Restaurants</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Company</th>
+      </tr>
+    </table>
+    <select id="company-filter">
+      <option value="all">All</option>
+      <option value="Sodexo">Sodexo</option>
+      <option value="Compass Group">Compass</option>
+    </select>
+
+    <p id="message"></p>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+      </tr>
+      <tbody id="target"></tbody>
+    </table>
+    <dialog></dialog>
+  </body>
+</html>
